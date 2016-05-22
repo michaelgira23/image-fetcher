@@ -64,7 +64,7 @@ app.get('/', function(req, res) {
         } else {
             
             // Fallback iamge if all else fails
-            fs.readFile('default.jpg', function(err, data) {
+            fs.readFile(__dirname + '/default.jpg', function(err, data) {
                 if(!err) {
                     res.writeHead(200, {'Content-Type': 'image/jpeg'});
                     res.end(data, 'binary');

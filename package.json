@@ -1,0 +1,29 @@
+{
+  "name": "image-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches a random image from Reddit and returns that image.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgira23/image-fetcher.git"
+  },
+  "keywords": [
+    "image",
+    "fetcher",
+    "Reddit"
+  ],
+  "author": "Michael Gira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgira23/image-fetcher/issues"
+  },
+  "homepage": "https://github.com/michaelgira23/image-fetcher#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "random-js": "^1.0.8",
+    "request": "^2.72.0"
+  }
+}

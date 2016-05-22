@@ -1,5 +1,5 @@
 # reddit-image-fetcher
-Fetches a random image from Reddit and returns that image.
+A simple little script that returns a random image from any given subreddit.
 
 ## Setup
 Runing it is easy peasy, just run `npm update` to install all the necessary dependencies. The main script is found under `index.js` and the default port is `1500`.
